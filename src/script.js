@@ -1,4 +1,4 @@
-const nomeCapitulo = document.getElementById("capitulo");
+ï»¿const nomeCapitulo = document.getElementById("capitulo");
 const audio = document.getElementById("audio-capitulo");
 const botaoPlayPause = document.getElementById("play-pause");
 const botaoProximoCapitulo = document.getElementById("proximo");
@@ -39,7 +39,7 @@ function capituloAnterior() {
     }
 
     audio.src = "audios/" + capitulo + ".mp3";
-    nomeCapitulo.innerText = "Capítulo " + capitulo;
+    nomeCapitulo.innerText = "CapÃ­tulo " + capitulo;
 }
 
 function proximoCapitulo() {
@@ -52,7 +52,7 @@ function proximoCapitulo() {
     }
 
     audio.src = "audios/" + capitulo + ".mp3";
-    nomeCapitulo.innerText = "Capítulo " + capitulo;
+    nomeCapitulo.innerText = "CapÃ­tulo " + capitulo;
 }
 
 botaoPlayPause.addEventListener("click", tocarOuPausarFaixa);
