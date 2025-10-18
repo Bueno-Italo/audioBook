@@ -17,19 +17,20 @@ A ideia é criar uma experiência de leitura auditiva interativa e moderna, idea
 ## 🗃️ Estrutura do Projeto
 
 audioBook/
-│
+
+
 ├── src/
 
-│ ├── audios/ # Arquivos de áudio (.mp3)
+ ├── audios/ # Arquivos de áudio (.mp3)
 
-│ ├── imagens/ # Ícones e imagens do player
+ ├── imagens/ # Ícones e imagens do player
 
-│ ├── index.html # Página principal
+ ├── index.html # Página principal
 
-│ ├── style.css # Estilos visuais
+ ├── style.css # Estilos visuais
 
-│ └── script.js # Lógica de reprodução
-│
+ └── script.js # Lógica de reprodução
+
 
 └── README.md
 
